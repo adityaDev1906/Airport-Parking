@@ -1,0 +1,25 @@
+.contact-bg {
+  background: linear-gradient(85deg, #e6f2fb 0%, #b9def5 100%);
+  padding: 32px;
+  border-radius: 8px;
+}
+.contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  margin-right: 8px;
+  font-size: 22px;
+}
