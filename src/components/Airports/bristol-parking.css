@@ -1,6 +1,72 @@
 .bristol-parking{
-    background-color: #f0f0f0;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: center;
+}
+
+.bristol-secure {
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2c3e50;
+    font-size: 18px;  
+    text-align: center;  
+}
+
+.bristol-parking-info {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 2 components comes in a row */
+.bristol-box-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.bristol-box {
+  flex: 1;
+  background: #e6f2fb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+/* 3 components comes in a row */
+.bristol-parking-services {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+.bristol-service {
+  flex: 1 1 0;
+  background: #e6f2fb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  min-width: 220px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.bristol-service::before {
+  content: attr(data-count);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 28px;
+  height: 28px;
+  background: #50a3e2;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.center-heading {
+  text-align: center;
 }

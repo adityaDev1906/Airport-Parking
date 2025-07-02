@@ -4,3 +4,56 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.how-to-book-row {
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.how-to-book-steps {
+  flex: 2;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.how-to-book-steps p {
+  margin-bottom: 18px;
+  background: #e6f2fb;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.how-to-book-side {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-book-side img {
+  width: 100%;
+  height: 100%;
+  max-width: 320px;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.book-save-btn {
+  width: 40%;;
+  background: #f7a428;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
