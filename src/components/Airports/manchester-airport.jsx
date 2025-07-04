@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../faqs.css'
 import './manchester-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
   {
@@ -29,6 +30,8 @@ const ManchesterAirport = () => {
       <div className="bristol-parking-info">
         <p>When it comes to travelling, the last thing you want is parking stress. At Airport Cheap Parking, we’ve made parking at Manchester Airport simple, secure, and affordable. Whether you’re flying for business, taking a family holiday, or heading out for a weekend getaway, we offer a range of parking services designed to suit every need and budget.
           <br />
+
+          <Infosecction />
           <br />
           From budget-friendly parking options to top-tier meet-and-greet services, we always ensure you get the best deal.
         </p>

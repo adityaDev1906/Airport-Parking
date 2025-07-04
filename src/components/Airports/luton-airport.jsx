@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../faqs.css'
 import './luton-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
     {
@@ -37,6 +38,8 @@ const LutonAirport = () => {
             <div className="bristol-parking-info">
                 <p>Are you tired of the pre-flight parking panic at Luton Airport? Searching endlessly for a spot, worrying about security, and dreading the hefty fees? We get it. That's why we've made Luton Airport parking simple, stress-free, and affordable. From convenient short stays to secure long-term options and seamless meet-and-greet services, we've covered your parking needs so that you can focus on your trip, not your car.</p>
             </div>
+
+            <Infosecction />
             <br />
             <div> Luton Parking Component will come here </div>
             <br />

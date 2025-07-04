@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../faqs.css'
 import './heathrow-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
     {
@@ -38,6 +39,8 @@ const HeathrowAirport = () => {
             <div className="bristol-parking-info">
                 <p>Navigating Heathrow Airport’s bustling terminals can be challenging, especially when it comes to parking. From last-minute booking headaches to finding a spot near your terminal, we’ve streamlined every aspect of Heathrow parking to ensure your experience is stress-free and efficient. Whether you’re on a tight schedule or prioritizing convenience, our tailored parking solutions are designed to meet the real-time needs of every passenger.</p>
             </div>
+
+            <Infosecction />
             <br />
             <div> Heathrow Parking Component will come here </div>
             <br />

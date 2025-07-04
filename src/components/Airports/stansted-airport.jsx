@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../faqs.css'
 import './stansted-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
     {
@@ -38,6 +39,8 @@ const StanstedAirport = () => {
                     <br />
                 </p>
             </div>
+
+            <Infosecction />
             <br />
             <div> Stansted Parking Component will come here </div>
             <br />
