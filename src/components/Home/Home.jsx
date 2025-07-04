@@ -1,7 +1,11 @@
 import React from "react";
 import "./Home.css";
 
+// import image1 from '../assets/image1.png';
+// import image2 from '../assets/image2.png';
+
 import Infosecction from "./Infosecction";
+import ParkingServiceCard from "./ParkingServiceCard";
 
 function Home() {
   return (
@@ -72,46 +76,175 @@ function Home() {
             </div>
           </div>
           <br></br>
-          <div className="airport-grid">
-            <div className="airport-card">
-              <img
-                src="https://placehold.co/400x250"
-                alt="Heathrow Airport aerial view showing terminals and runways"
-              />
-              <div className="airport-info">
-                <h3>Heathrow Airport</h3>
-                {/* <p>From £4.99/day</p> */}
-                <a href="/heathrow" className="parking-button">
-                  Book Now
-                </a>
+
+          {/* discription */}
+          <div className="parking-card">
+            <div className="parking-images">
+              {/* <img src={image1} alt="Customer Service" className="parking-image" /> */}
+              {/* <img src={image2} alt="Parking Area" className="parking-image" /> */}
+            </div>
+            <div className="parking-content">
+              <h2 className="parking-title">
+                Park with Peace of Mind at Manchester Airport
+              </h2>
+              <h4 className="parking-subtitle">About Airport Cheap Parking</h4>
+              <p className="parking-description">
+                Airport Cheap Parking is a reliable service provider
+                specializing in cost-effective parking solutions at Manchester
+                Airport. With a focus on affordability and convenience, the
+                company partners with reputable parking providers to offer a
+                variety of options, including park-and-ride, meet-and-greet, and
+                secure on-site parking. These services are designed to cater to
+                both short- and long-term parking needs, ensuring customers have
+                a seamless travel experience. By prioritizing efficiency and
+                customer satisfaction, the company aims to make airport parking
+                hassle-free and economical.
+              </p>
+              <p className="parking-description">
+                We are also renowned for our user-friendly booking platform and
+                excellent customer service. Travelers can easily compare rates,
+                select parking options that best suit their needs, and enjoy
+                benefits such as free cancellations and competitive pricing.
+                With a strong emphasis on security, convenience, and customer
+                care, Airport Cheap Parking provides a trusted solution for
+                those looking to simplify their airport parking experience while
+                saving money.
+              </p>
+
+              <div className="Phone-no">
+                <p>Phone Number</p>
+                <h1>789265214</h1>
               </div>
             </div>
+          </div>
 
-            <div className="airport-card">
-              <img
-                src="https://placehold.co/400x250"
-                alt="Gatwick Airport south terminal exterior with planes"
-              />
-              <div className="airport-info">
-                <h3>Gatwick Airport</h3>
-                {/* <p>From £4.49/day</p> */}
-                <a href="/gatwick" className="parking-button">
-                  Book Now
-                </a>
-              </div>
+          <ParkingServiceCard></ParkingServiceCard>
+
+          <div>
+            <div className="main-heading">
+              Hassle-Free Airport Parking<br></br>
+              Across the UK
             </div>
+            <p>
+              Experience convenience with our Meet and Greet services at major
+              UK airports.<br></br> Drive, hand over your keys, and let us
+              handle the parking.
+            </p>
+            <div className="airport-grid">
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Heathrow Airport aerial view showing terminals and runways"
+                />
+                <div className="airport-info">
+                  <h3>BristolAirport Parking</h3>
+                  <p>
+                    Experience seamless travel with our Meet and Greet Parking
+                    services at Bristol Airport. Leave your car with a trusted
+                    valet and enjoy hassle-free parking.
+                  </p>
+                  {/* <p>From £4.99/day</p> */}
+                  <a href="/bristol" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
+              </div>
 
-            <div className="airport-card">
-              <img
-                src="https://placehold.co/400x250"
-                alt="Stansted Airport modern terminal building with glass facade"
-              />
-              <div className="airport-info">
-                <h3>Stansted Airport</h3>
-                {/* <p>From £3.99/day</p> */}
-                <a href="/stansted" className="parking-button">
-                  Book Now
-                </a>
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Gatwick Airport south terminal exterior with planes"
+                />
+                <div className="airport-info">
+                  <h3>Gatwick Airport Parking</h3>
+                  <p>
+                    Our Meet and Greet Parking services at Gatwick Airport
+                    provide convenience and peace of mind. Let an experienced
+                    professional handle your parking, giving you more time to
+                    focus on your journey.
+                  </p>
+                  {/* <p>From £4.49/day</p> */}
+                  <a href="/gatwick" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
+              </div>
+
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Stansted Airport modern terminal building with glass facade"
+                />
+                <div className="airport-info">
+                  <h3>Heathrow Airport Parking</h3>
+                  <p>
+                    At Heathrow Airport, take advantage of our reliable Meet and
+                    Greet Parking services. A dedicated valet will park your car
+                    safely, so you can travel without worries.
+                  </p>
+                  {/* <p>From £3.99/day</p> */}
+                  <a href="/heathrow" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
+              </div>
+
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Stansted Airport modern terminal building with glass facade"
+                />
+                <div className="airport-info">
+                  <h3>Luton Airport Parking</h3>
+                  <p>
+                    Choose convenience with our Meet and Greet Parking services
+                    at Luton Airport. Our expert valet team makes parking
+                    stress-free and secure.
+                  </p>
+                  {/* <p>From £3.99/day</p> */}
+                  <a href="/luton" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
+              </div>
+
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Stansted Airport modern terminal building with glass facade"
+                />
+                <div className="airport-info">
+                  <h3>Manchester Airport Parking</h3>
+                  <p>
+                    Make your journey effortless with our premium Meet and Greet
+                    Parking services at Manchester Airport. Drive to the
+                    terminal, hand over your keys, and we’ll handle the rest.
+                  </p>
+                  {/* <p>From £3.99/day</p> */}
+                  <a href="/manchester" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
+              </div>
+
+              <div className="airport-card">
+                <img
+                  src="https://placehold.co/400x250"
+                  alt="Stansted Airport modern terminal building with glass facade"
+                />
+                <div className="airport-info">
+                  <h3>Stansted Airport Parking</h3>
+                  <p>
+                    Simplify your trip with our dependable Meet and Greet
+                    Parking services at Stansted Airport. A professional valet
+                    will ensure your car is parked securely while you focus on
+                    your travels.
+                  </p>
+                  {/* <p>From £3.99/day</p> */}
+                  <a href="/stansted" className="parking-button">
+                    Book Now
+                  </a>
+                </div>
               </div>
             </div>
           </div>
