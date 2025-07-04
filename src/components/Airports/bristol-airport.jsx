@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../faqs.css'
-import './bristol-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
     {
@@ -37,6 +37,10 @@ const BristolParking = () => {
             <div className="bristol-parking-info">
                 <p>Finding a parking spot at Bristol Airport doesn’t have to be a headache. Whether you're looking for a cheap parking near Bristol Airport or a top-notch Meet and Greet Bristol Airport service, we offer a range of customized options designed to fit your needs and budget. Enjoy secure, reliable parking that lets you focus on what matters—your journey.</p>
             </div>
+
+
+            <Infosecction />
+
             <br />
             <div> Bristol Parking Component will come here </div>
             <br />

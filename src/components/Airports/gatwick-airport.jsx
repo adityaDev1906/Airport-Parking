@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../faqs.css'
 import './gatwick-parking.css'
+import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
     {
@@ -42,6 +43,8 @@ const GatwickAirport = () => {
             <div className="bristol-parking-info">
                 <p>Finding the right parking at Gatwick Airport shouldn’t add to the pressure of your trip. Whether you're heading off for a short business flight or a relaxing holiday, securing the perfect parking spot in advance is the first step toward a seamless journey. At Airport Cheap Parking, we offer tailored solutions for every type of traveler. From the convenience of meet and greet Gatwick to the premium service of Gatwick valet parking, we ensure that your experience is efficient, affordable, and most importantly, hassle-free. Book now for peace of mind and guaranteed savings.</p>
             </div>
+
+            <Infosecction />
             <br />
             <div> Gatwick Parking Component will come here </div>
             <br />
