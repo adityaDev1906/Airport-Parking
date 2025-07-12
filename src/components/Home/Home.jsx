@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Carousel from "./Carousel";
 
 // import image1 from '../assets/image1.png';
 // import image2 from '../assets/image2.png';
@@ -9,6 +10,8 @@ import ParkingServiceCard from "./ParkingServiceCard";
 
 function Home() {
   return (
+    <>
+    <Carousel />
     <div className="home-page">
       {/* Hero Section */}
       <section className="hero-section">
@@ -25,10 +28,10 @@ function Home() {
       {/* Popular Airports */}
       <section className="popular-airports">
         <div className="container">
-          <h2>Popular Airport Parking</h2>
+          <h2>How to Book?</h2>
 
           <div className="container">
-            <h2 className="section-title">How It Works</h2>
+            <h3 className="section-title">Simplify Your Parking in 4 Easy Steps</h3>
             <div className="features-grid">
               {/* Card 1 */}
               <div className="feature-card">
@@ -275,6 +278,7 @@ function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }
 
