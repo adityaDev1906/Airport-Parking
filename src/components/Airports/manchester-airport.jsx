@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../faqs.css'
+import './airport-parking.css'
 import './manchester-parking.css'
 import Infosecction from '../Home/Infosecction';
 
@@ -26,8 +27,8 @@ const ManchesterAirport = () => {
 
   return (
     <>
-      <div className='bristol-secure'>Manchester Airport Parking Made Easy Your Stress-Free Parking Experience at Manchester Airport</div>
-      <div className="bristol-parking-info">
+      <div className='airport-secure'>Manchester Airport Parking Made Easy Your Stress-Free Parking Experience at Manchester Airport</div>
+      <div className="airport-parking-info">
         <p>When it comes to travelling, the last thing you want is parking stress. At Airport Cheap Parking, we’ve made parking at Manchester Airport simple, secure, and affordable. Whether you’re flying for business, taking a family holiday, or heading out for a weekend getaway, we offer a range of parking services designed to suit every need and budget.
           <br />
 
@@ -37,27 +38,26 @@ const ManchesterAirport = () => {
         </p>
       </div>
       <br />
-      <div> Manchester Parking Component will come here </div>
       <br />
       <div>Why Choose Airport Cheap Parking?</div>
       <div>Choosing the proper parking at Manchester Airport shouldn't be easy. With cheap airport parking, we provide you.</div>
       <br />
-      <div className="bristol-box-row">
-        <div className="bristol-box">
+      <div className="airport-box-row">
+        <div className="airport-box">
           <h3>Convenient Parking Locations</h3>
           <p>Our parking facilities provide quick and easy access to your gate, Located just minutes from all terminals, including Manchester Airport Terminal 3.</p>
         </div>
-        <div className="bristol-box">
+        <div className="airport-box">
           <h3>Top-Level Security</h3>
           <p>Rest easy knowing your vehicle is in safe hands. Our parking facilities are monitored 24/7 with CCTV to ensure your car is secure while you're away.</p>
         </div>
       </div>
-      <div className="bristol-box-row">
-        <div className="bristol-box">
+      <div className="airport-box-row">
+        <div className="airport-box">
           <h3>Affordable Prices for Every Traveler</h3>
           <p>We pride ourselves on offering cheap airport parking and not compromising quality. Whether you'reyou're looking for a budget solution or a more luxurious experience, we have a parking option to fit your needs.</p>
         </div>
-        <div className="bristol-box">
+        <div className="airport-box">
           <h3>Flexible Parking Options</h3>
           <p>Whether you need the ultimate convenience of meet-and-greet parking, the cost-effectiveness of park-and-ride, or the proximity of on-site parking, we have the perfect solution.</p>
         </div>
@@ -67,16 +67,16 @@ const ManchesterAirport = () => {
       <h2>Our Parking Services at Manchester Airport</h2>
       <br />
       <br />
-      <div className="bristol-parking-services">
-        <div className="bristol-service" data-count="1">
+      <div className="airport-parking-services">
+        <div className="airport-service" data-count="1">
           <h3>Meet-and-Greet Parking</h3>
           <p>It’s the perfect solution for those in a hurry or travelling with lots of luggage. With our meet-and-greet parking service, drive to your terminal, hand over your keys to our professional valet, and head straight to check in while we take care of your car.</p>
         </div>
-        <div className="bristol-service" data-count="2">
+        <div className="airport-service" data-count="2">
           <h3>Park-and-Ride Parking</h3>
           <p>Our park-and-ride service provides an affordable yet reliable solution. It’s a budget-friendly way to make sure you don’t miss your flight. Park your car at a secure location, hop on a shuttle, and enjoy a quick ride to the terminal.</p>
         </div>
-        <div className="bristol-service" data-count="3">
+        <div className="airport-service" data-count="3">
           <h3>On-Site Parking</h3>
           <p>Need to stay close to the action? Our on-site parking options are perfect for travellers who want the convenience of parking just minutes from their terminal. No transfers are needed – park and walk to check-in.</p>
         </div>

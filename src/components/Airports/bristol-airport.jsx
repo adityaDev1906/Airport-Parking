@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../faqs.css'
+import './airport-parking.css'
 import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
@@ -32,9 +33,9 @@ const BristolParking = () => {
     }
     return (
         <>
-            <div className="bristol-parking">Traveling from Bristol?</div>
-            <div className='bristol-secure'>Secure Your Parking Spot with Our Trusted Options</div>
-            <div className="bristol-parking-info">
+            <div className="airport-parking">Traveling from Bristol?</div>
+            <div className='airport-secure'>Secure Your Parking Spot with Our Trusted Options</div>
+            <div className="airport-parking-info">
                 <p>Finding a parking spot at Bristol Airport doesn’t have to be a headache. Whether you're looking for a cheap parking near Bristol Airport or a top-notch Meet and Greet Bristol Airport service, we offer a range of customized options designed to fit your needs and budget. Enjoy secure, reliable parking that lets you focus on what matters—your journey.</p>
             </div>
 
@@ -42,27 +43,26 @@ const BristolParking = () => {
             <Infosecction />
 
             <br />
-            <div> Bristol Parking Component will come here </div>
             <br />
             <div>Why Parking at Bristol Airport Doesn’t Have to Be Complicated?</div>
             <div>When searching for Bristol airport car parking, you need convenience, safety, and cost-effectiveness. Our parking solutions meet these needs by offering a variety of options that are both affordable and easy to use.</div>
             <br />
-            <div className="bristol-box-row">
-                <div className="bristol-box">
+            <div className="airport-box-row">
+                <div className="airport-box">
                     <h3>Affordable and Convenient Parking</h3>
                     <p>We specialize in providing cheap parking Bristol airport that doesn’t sacrifice security or ease.</p>
                 </div>
-                <div className="bristol-box">
+                <div className="airport-box">
                     <h3>24/7 Secure Parking</h3>
                     <p>All our Bristol airport car park options are equipped with high-end security features. CCTV, staff presence, and secure barriers ensure that your vehicle is safe while you travel.</p>
                 </div>
             </div>
-            <div className="bristol-box-row">
-                <div className="bristol-box">
+            <div className="airport-box-row">
+                <div className="airport-box">
                     <h3>Quick Access to Terminals</h3>
                     <p>Whether you choose to park and ride or take advantage of a meet and greet service, we ensure that your parking experience is as seamless and quick as possible. Skip the long walks and get to your gate with minimal hassle.</p>
                 </div>
-                <div className="bristol-box">
+                <div className="airport-box">
                     <h3>Flexible Parking Solutions for Every Traveler</h3>
                     <p>No matter your parking needs, we offer a variety of options to ensure a smooth start to your journey. We provide you utmost flexibility so you can park with confidence knowing you're getting the best service at the best price.</p>
                 </div>
@@ -72,16 +72,16 @@ const BristolParking = () => {
             <h2>Our Parking Services at Bristol Airport</h2>
             <p>At Airport Cheap Parking, we offer a range of parking services designed to make your journey smoother, more convenient, and more affordable. Whether you're traveling for a few days or a few weeks, our parking options ensure you have the perfect solution for your needs.</p>
             <br />
-            <div className="bristol-parking-services">
-                <div className="bristol-service" data-count="1">
+            <div className="airport-parking-services">
+                <div className="airport-service" data-count="1">
                     <h3>Meet and Greet</h3>
                     <p>No need to search for a parking spot, fast access to the terminal, professional service. Our Meet and Greet Bristol Airport service is the perfect choice, for those looking for a hassle-free, premium experience.</p>
                 </div>
-                <div className="bristol-service" data-count="2">
+                <div className="airport-service" data-count="2">
                     <h3>Park and Ride</h3>
                     <p>If you prefer a more affordable option without compromising convenience, our Park and Ride Bristol Airport service is an excellent choice. It’s quick, easy, and cost-effective, making it a great solution for both short-term and long-term stays.</p>
                 </div>
-                <div className="bristol-service" data-count="3">
+                <div className="airport-service" data-count="3">
                     <h3>Onsite Parking at Bristol Airport</h3>
                     <p>For ultimate convenience, our onsite parking at Bristol Airport offers the closest possible parking to the terminal. With easy access and a prime location, onsite parking is perfect for those who value speed and simplicity.</p>
                 </div>

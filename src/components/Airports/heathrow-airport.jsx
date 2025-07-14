@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../faqs.css'
-import './heathrow-parking.css'
+import './airport-parking.css'
 import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
@@ -35,34 +35,33 @@ const HeathrowAirport = () => {
     return (
         <>
             {/* <div className="bristol-parking">Traveling from Bristol?</div> */}
-            <div className='bristol-secure'>Affordable & Hassle-Free Parking Solutions at Heathrow Airport</div>
-            <div className="bristol-parking-info">
+            <div className='airport-secure'>Affordable & Hassle-Free Parking Solutions at Heathrow Airport</div>
+            <div className="airport-parking-info">
                 <p>Navigating Heathrow Airport’s bustling terminals can be challenging, especially when it comes to parking. From last-minute booking headaches to finding a spot near your terminal, we’ve streamlined every aspect of Heathrow parking to ensure your experience is stress-free and efficient. Whether you’re on a tight schedule or prioritizing convenience, our tailored parking solutions are designed to meet the real-time needs of every passenger.</p>
             </div>
 
             <Infosecction />
             <br />
-            <div> Heathrow Parking Component will come here </div>
             <br />
             <div>Top Reasons to Airport Cheap Parking for Heathrow terminals</div>
             <div>We understand that every passenger at Heathrow has unique needs and expectations. Here's why travelers trust us to make their parking experience as seamless as possible.</div>
             <br />
-            <div className="bristol-box-row">
-                <div className="bristol-box">
+            <div className="airport-box-row">
+                <div className="airport-box">
                     <h3>Convenience Across All Terminals</h3>
                     <p>With dedicated parking options at Heathrow Terminal 2, Terminal 3, Terminal 4, and Terminal 5, you can find a spot close to your departure gate.</p>
                 </div>
-                <div className="bristol-box">
+                <div className="airport-box">
                     <h3>Affordable Rates</h3>
                     <p>Compare airport parking Heathrow options to get competitive prices for long-stay or short-stay needs.</p>
                 </div>
             </div>
-            <div className="bristol-box-row">
-                <div className="bristol-box">
+            <div className="airport-box-row">
+                <div className="airport-box">
                     <h3>Secure Parking</h3>
                     <p>Rest assured with 24/7 CCTV surveillance, gated access, and insured drivers.</p>
                 </div>
-                <div className="bristol-box">
+                <div className="airport-box">
                     <h3>Flexible Choices</h3>
                     <p>Whether you need long stay parking at Heathrow or quick drop-off services, we’ve got you covered.</p>
                 </div>
@@ -72,28 +71,28 @@ const HeathrowAirport = () => {
             <h2>Six Tailored Parking Solutions for Heathrow Travelers</h2>
             <p>Discover a range of convenient and reliable parking options designed to meet the diverse needs of Heathrow travelers.</p>
             <br />
-            <div className="bristol-parking-services">
-                <div className="bristol-service" data-count="1">
+            <div className="airport-parking-services">
+                <div className="airport-service" data-count="1">
                     <h3>Meet and Greet Parking</h3>
                     <p>Enjoy seamless parking with our meet and greet service. Drop your car at the terminal and have it securely parked by our professionals.</p>
                 </div>
-                <div className="bristol-service" data-count="2">
+                <div className="airport-service" data-count="2">
                     <h3>Park and Ride</h3>
                     <p>Ideal for budget-conscious travelers. Park your car in a secure lot and take a quick shuttle to your terminal.</p>
                 </div>
-                <div className="bristol-service" data-count="3">
+                <div className="airport-service" data-count="3">
                     <h3>On-Airport Parking</h3>
                     <p>Park directly within Heathrow's premises for unbeatable convenience, perfect for travelers who value proximity to the terminal.</p>
                 </div>
-                <div className="bristol-service" data-count="4">
+                <div className="airport-service" data-count="4">
                     <h3>Valet Parking</h3>
                     <p>Save time with our valet parking service. A professional driver will park your car while you proceed to check-in stress-free.</p>
                 </div>
-                <div className="bristol-service" data-count="5">
+                <div className="airport-service" data-count="5">
                     <h3>Short-Stay Parking</h3>
                     <p>Perfect for pickups, drop-offs, or short trips. Located close to terminals, ensuring minimal walking distance.</p>
                 </div>
-                <div className="bristol-service" data-count="6">
+                <div className="airport-service" data-count="6">
                     <h3>Long-Stay Parking</h3>
                     <p>Affordable and secure long-stay options for extended trips. Includes complimentary shuttle services to all terminals.</p>
                 </div>

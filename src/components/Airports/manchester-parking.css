@@ -1,9 +1,3 @@
-.manchester-parking{
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
 .how-to-book-row {
   display: flex;
   gap: 32px;

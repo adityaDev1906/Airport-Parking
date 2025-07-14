@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../faqs.css'
-import './stansted-parking.css'
+import './airport-parking.css'
 import Infosecction from '../Home/Infosecction';
 
 const faqsData = [
@@ -33,8 +33,8 @@ const StanstedAirport = () => {
     }
     return (
         <>
-            <div className='bristol-secure'>Secure Your Spot: Affordable Stansted Airport Parking Options</div>
-            <div className="bristol-parking-info">
+            <div className='airport-secure'>Secure Your Spot: Affordable Stansted Airport Parking Options</div>
+            <div className="airport-parking-info">
                 <p>Imagine arriving at Stansted, handing over your keys to a friendly professional, and walking straight to check-in. The weight of parking worries lifts instantly. No more circling crowded lots, no frantic searching for a ticket machine, no anxiety about hidden charges. Just a smooth, effortless transition from car to terminal, setting the tone for a relaxed and enjoyable trip. With our range of parking options, from valet-style meet & greet to cost-effective park & ride, that's precisely what you get.
                     <br />
                 </p>
@@ -42,7 +42,6 @@ const StanstedAirport = () => {
 
             <Infosecction />
             <br />
-            <div> Stansted Parking Component will come here </div>
             <br />
             <button>How to Book</button>
             <h2>How to Book Your Parking Spot at Stansted Airport</h2>
@@ -108,16 +107,16 @@ const StanstedAirport = () => {
             <br />
             <p>We offer a range of tailored parking solutions designed to meet every traveler’s needs at Stansted Airport.</p>
             <br />
-            <div className="bristol-parking-services">
-                <div className="bristol-service" data-count="1">
+            <div className="airport-parking-services">
+                <div className="airport-service" data-count="1">
                     <h3>Meet and Greet Parking</h3>
                     <p>Experience the ultimate convenience with our Stansted meet-and-greet service. A professional driver will meet you at the terminal, park your car securely, and have it ready upon your return. It is ideal for families, business travelers, and anyone looking to save time.</p>
                 </div>
-                <div className="bristol-service" data-count="2">
+                <div className="airport-service" data-count="2">
                     <h3>On-Site Parking</h3>
                     <p>Enjoy the ease of parking at the airport with our on-site parking services. Located just a short walk from the terminal, it is perfect for travelers who value proximity and convenience.</p>
                 </div>
-                <div className="bristol-service" data-count="3">
+                <div className="airport-service" data-count="3">
                     <h3>Park and Ride</h3>
                     <p>Opt for our cost-effective park-and-ride service for a hassle-free experience. Park your car at our secure lot and hop on a complimentary shuttle that takes you straight to the terminal. It's the perfect solution for budget-conscious travelers.</p>
                 </div>
