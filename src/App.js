@@ -50,7 +50,7 @@ const App = () => {
                 onMouseLeave={() => setAirportDropdown(false)}
               >
                 <NavLink
-                  to="#"
+                  to="/airport"
                   className={({ isActive }) => (isActive ? "active" : "")}
                   onClick={(e) => e.preventDefault()}
                 >

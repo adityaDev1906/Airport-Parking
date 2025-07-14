@@ -16,24 +16,24 @@ nav ul li {
   display: inline;
 }
 
-nav ul li a {
+nav ul li a{
+  color: #333;
   text-decoration: none;
-  color: #0074d9;
   font-weight: 500;
   padding: 8px 12px;
-  transition: color 0.2s, background 0.2s;
   border-radius: 4px;
+  background: none;
 }
 
-nav ul li a.active {
-  background: #e6f2fb;
+nav ul li a.active,
+nav ul li a:hover{
   color: #005fa3;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  background: none;
 }
 
-nav ul li a:hover {
-  color: #005fa3;
-}
-
+/* Book Parking button CSS is below here  */
 .book-btn {
   background: #f7a428;
   color: #fff;
@@ -51,6 +51,7 @@ nav ul li a:hover {
   background: #005fa3;
 }
 
+/* Dropdown button CSS is below here */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -80,14 +81,13 @@ nav ul li a:hover {
 .dropdown-menu li a {
   display: block;
   padding: 10px 16px;
-  color: #0074d9;
   text-decoration: none;
   border-radius: 0;
   transition: background 0.2s;
 }
 
-.dropdown-menu li a:hover,
-.dropdown-menu li a.active {
-  background: #e6f2fb;
-  color: #005fa3;
+.dropdown-menu li a:hover, 
+.dropdown-menu li a.active { 
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
