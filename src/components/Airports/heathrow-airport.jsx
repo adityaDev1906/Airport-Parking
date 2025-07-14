@@ -34,7 +34,6 @@ const HeathrowAirport = () => {
 
     return (
         <>
-            {/* <div className="bristol-parking">Traveling from Bristol?</div> */}
             <div className='airport-secure'>Affordable & Hassle-Free Parking Solutions at Heathrow Airport</div>
             <div className="airport-parking-info">
                 <p>Navigating Heathrow Airport’s bustling terminals can be challenging, especially when it comes to parking. From last-minute booking headaches to finding a spot near your terminal, we’ve streamlined every aspect of Heathrow parking to ensure your experience is stress-free and efficient. Whether you’re on a tight schedule or prioritizing convenience, our tailored parking solutions are designed to meet the real-time needs of every passenger.</p>
