@@ -1,12 +1,11 @@
 import React from "react";
 import "./Home.css";
+import car_parking1 from './car_parking1.png';
+import car_parking2 from './car_parking2.png';
 import Carousel from "./Carousel";
-
-// import image1 from '../assets/image1.png';
-// import image2 from '../assets/image2.png';
-
 import Infosecction from "./Infosecction";
 import ParkingServiceCard from "./ParkingServiceCard";
+import Reviews from "./Reviews";
 
 function Home() {
   return (
@@ -83,8 +82,8 @@ function Home() {
           {/* discription */}
           <div className="parking-card">
             <div className="parking-images">
-              {/* <img src={image1} alt="Customer Service" className="parking-image" /> */}
-              {/* <img src={image2} alt="Parking Area" className="parking-image" /> */}
+              <img src={car_parking1} alt="Customer Service" className="parking-image" />
+              <img src={car_parking2} alt="Parking Area" className="parking-image" />
             </div>
             <div className="parking-content">
               <h2 className="parking-title">
@@ -121,9 +120,12 @@ function Home() {
             </div>
           </div>
 
-          <ParkingServiceCard></ParkingServiceCard>
+          <ParkingServiceCard />
+          
+          <Reviews />
 
           <div>
+            <button className="booking-button">Easy and Fast Booking</button>
             <div className="main-heading">
               Hassle-Free Airport Parking<br></br>
               Across the UK

@@ -1,0 +1,51 @@
+.review-button{
+  background-color: #7736ee;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #7736ee;
+  border-radius: 18px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  height: 180px;
+  animation: slideReviews 9s linear infinite;
+}
+
+.review-card {
+  flex: 0 0 calc((100% - 48px) / 3.4); /* 48px = 2 gaps of 24px */
+  background: #e6f2fb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  font-size: 1.05rem;
+  transition: box-shadow 0.2s;
+}
+
+@keyframes slideReviews {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(0);}
+  40%  { transform: translateX(-33.333%); }
+  60%  { transform: translateX(-33.333%); }
+  80%  { transform: translateX(-33.333%); }
+  100%   { transform: translateX(0); }
+}
+
+.review-card h3 {
+  margin-top: 16px;
+  color: #0074d9;
+  font-size: 1rem;
+  font-weight: 600;
+}
