@@ -70,3 +70,252 @@
 .center-heading {
   text-align: center;
 }
+
+.airport-header {
+  color: white;
+  background-color: #1e3a8a; /* Deep Blue */
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px; /* Oval shape */
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Center the oval horizontally */
+  margin: 1.5rem auto;
+  text-align: center;
+  display: block;         /* Ensures margin auto works */
+  width: fit-content;     /* Shrinks to fit text */
+}
+
+.airport-header {
+  color: white;
+  background-color: #1e3a8a; /* Deep Blue */
+  display: block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px; /* Oval shape */
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 2rem auto;
+  width: fit-content;
+  text-align: center;
+
+  /* Animation */
+  animation: fadeInSlide 1s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.airport-header:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Keyframe animation */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.airport-text{
+  text-align: center;
+}
+
+/* Center the button container */
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Stylish button */
+.booking-button {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold; /* BOLD text */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover bounce effect */
+.booking-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Click shrink effect */
+.booking-button:active {
+  transform: scale(0.97);
+}
+
+
+.airport-box-merged-card {
+  max-width: 950px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0f0ff, #f7fbff);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  animation: slideUpFade 0.6s ease-in-out;
+}
+
+.airport-box-merged-card:hover {
+  transform: translateY(-5px);
+}
+
+.merged-card-heading {
+  text-align: center;
+  font-size: 1.75rem;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.merged-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.merged-section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-left: 5px solid #1e3a8a;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+}
+
+.merged-section h3 {
+  font-size: 1.2rem;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.merged-section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Simple animation */
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .airport-box-merged-card {
+    padding: 1.5rem;
+  }
+
+  .merged-section {
+    padding: 1rem;
+  }
+
+  .merged-card-heading {
+    font-size: 1.5rem;
+  }
+}
+
+.airport-title{
+   font-size: 2rem;
+  font-weight: 700;
+  color: #4870c0;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.parking-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  padding: 3rem 2rem;
+  background: #f0f4f8;
+}
+
+.parking-box {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.parking-box::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background: #007bff20;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.parking-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.parking-box h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.parking-box h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #1a73e8;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.parking-box p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+  .parking-info-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+}
