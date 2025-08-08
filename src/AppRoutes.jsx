@@ -10,6 +10,8 @@ import HeathrowAirport from "./components/Airports/heathrow-airport";
 import LutonAirport from "./components/Airports/luton-airport";
 import ManchesterAirport from "./components/Airports/manchester-airport";
 import StanstedAirport from "./components/Airports/stansted-airport";
+import ParkingCardComponent from './components/Airports/ParkingCardComponent';
+import Airportcheapparking from "./components/Airports/airportcheapparking";
 
 const AppRoutes = () => (
   <Routes>
@@ -23,6 +25,8 @@ const AppRoutes = () => (
     <Route path="/stansted" element={<StanstedAirport />} />
     <Route path="/faqs" element={<Faqs />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/ParkingCardComponent" element={<ParkingCardComponent />} />
+    <Route path="/airportcheapparking" element={<Airportcheapparking />} />
   </Routes>
 );
 

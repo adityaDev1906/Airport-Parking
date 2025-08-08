@@ -1,7 +1,12 @@
 import React from "react";
 import "./Home.css";
+import { useNavigate } from 'react-router-dom';
+
+
 
 function Infosecction() {
+    const navigate = useNavigate();
+  
   return (
     <div className="search-container">
       <div className="search-tabs">
@@ -19,6 +24,7 @@ function Infosecction() {
           </select>
         </div>
 
+
         <div className="form-group date-group">
           <div className="date-field">
             <label htmlFor="departure-date">Park in</label>
@@ -29,11 +35,14 @@ function Infosecction() {
             <input type="date" id="return-date" />
           </div>
         </div>
+        
 
-        <button type="submit" className="search-button">
+        <button type="submit" className="search-button"
+            onClick={() => navigate(`/ParkingCardComponent`)} >
           Find Parking Deals
         </button>
       </form>
+
     </div>
   );
 }
