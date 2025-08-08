@@ -3,6 +3,7 @@ import "../faqs.css";
 import "./bristol-parking.css";
 import "./airport-parking.css";
 import Infosecction from "../Home/Infosecction";
+// import ParkingCardComponent from "./Airports/Booking";
 
 const faqsData = [
   {
@@ -53,6 +54,12 @@ const BristolParking = () => {
       </div>
 
       <Infosecction />
+
+      <>
+
+
+      {/* <ParkingCardComponent></ParkingCardComponent> */}
+      </>
 
       <br />
       <br />
