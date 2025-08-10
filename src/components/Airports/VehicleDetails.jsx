@@ -15,7 +15,7 @@ const VehicleDetails = () => {
     };
 
     return (
-        <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-lg space-y-6">
+        <div class="max-w-1xl ml-0 p-6 bg-white rounded-lg shadow-lg space-y-6">
             <h2 className="text-2xl font-bold text-blue-700">Vehicle Details
             </h2>
 
@@ -64,32 +64,32 @@ const VehicleDetails = () => {
 
 
             <div className="border border-gray-300 rounded-lg p-4 space-y-3 bg-white shadow-sm max-w-xl">
-      <label className="flex items-start gap-2 text-gray-800">
-        <input
-          type="checkbox"
-          name="smsConfirmation"
-          checked={options.smsConfirmation}
-          onChange={handleChange}
-          className="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-        />
-        <span>
-          <strong>Text Message Confirmation</strong> – (UK mobiles only) £0.99
-        </span>
-      </label>
+                <label className="flex items-start gap-2 text-gray-800">
+                    <input
+                        type="checkbox"
+                        name="smsConfirmation"
+                        checked={options.smsConfirmation}
+                        onChange={handleChange}
+                        className="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                    />
+                    <span>
+                        <strong>Text Message Confirmation</strong> – (UK mobiles only) £0.99
+                    </span>
+                </label>
 
-      <label className="flex items-start gap-2 text-gray-800">
-        <input
-          type="checkbox"
-          name="cancellationCover"
-          checked={options.cancellationCover}
-          onChange={handleChange}
-          className="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-        />
-        <span>
-          <strong>Cancellation Cover</strong> – Protect your booking if you need to cancel or amend in future £2.00
-        </span>
-      </label>
-    </div>
+                <label className="flex items-start gap-2 text-gray-800">
+                    <input
+                        type="checkbox"
+                        name="cancellationCover"
+                        checked={options.cancellationCover}
+                        onChange={handleChange}
+                        className="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                    />
+                    <span>
+                        <strong>Cancellation Cover</strong> – Protect your booking if you need to cancel or amend in future £2.00
+                    </span>
+                </label>
+            </div>
 
         </div>
     );
